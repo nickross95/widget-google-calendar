@@ -27,13 +27,6 @@ RiseVision.Calendar.Event = (function () {
       $day.find(".summary").eq(pos).html(event.summary);
     }
 
-    if (event.location) {
-      $day.find(".location").eq(pos).html(event.location);
-    }
-
-    if (event.description) {
-      $day.find(".description").eq(pos).html(event.description);
-    }
   }
 
   return {
